@@ -26,8 +26,8 @@
 6. git commit (記得run pre-commit)
 7. git push
 8. create your PR(Pull Request)
-9. Request code review ！！！ （務必）
-10. After aproved ,Do "Squash merge "
+9. Request code review ！！！
+11. After aproved ,Do "Squash merge "
 > [!NOTE]
 > ＧitFlow is very important !!!! Do follow it !!!
 > 
