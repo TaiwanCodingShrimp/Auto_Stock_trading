@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 ruff = "^0.4.3"
+django = "^5.0.6"
 
 
 [build-system]
