@@ -7,8 +7,18 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "3.10.13"
+pre-commit = "^3.7.0"
+ruff = "^0.4.3"
+django = "^5.0.6"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.ruff.lint]
+# 1. Enable flake8-bugbear (`B`) rules, in addition to the defaults.
+select = ["E4", "E7", "E9", "F", "B"]
+
+# 2. Avoid enforcing line-length violations (`E501`)
+ignore = ["E501"]
